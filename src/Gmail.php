@@ -35,7 +35,7 @@ class Gmail extends Mime{
      * @param string $value
      * @return Array
      */
-	public function getMessages($email_number) {				
+	public function getMessages($email_number = []) {				
 
 		
 		$this->email_number = $email_number;
